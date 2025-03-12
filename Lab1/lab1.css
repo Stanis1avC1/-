@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-right: 20px;
+}
+canvas {
+    border: 1px solid black;
+    background-color: white;
+}
+.controls {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+}
+.controls label {
+    display: block;
+    margin-bottom: 5px;
+}
+.controls input {
+    margin-left: 5px;
+}
+.grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 400px;
+    pointer-events: none;
+}
